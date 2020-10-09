@@ -4,18 +4,17 @@
 * Conferences: MICCAI, IPCAI, ICRA, IROS  
 * Journals: TMI, MedIA, IJCARS, RA-L
 
-## Big Papers
+%## Big Papers
 
-## Summary
-### MICCAI2020
-* More vision tasks: different granularities for workflow recognition; pose estimation
-* New section about Colonoscopy
-* Other sequential data: colonoscopy, cardiac motion estimation, ultrasound, PET  
+%## Summary
+%### ICRA2020
+%* Gesture recognition using multiple-source data
+%* Real-time instrument segmentation
 
-Efficient and Phase-aware Video Super-resolution for Cardiac MRI  
-DeU-Net: Deformable U-Net for 3D Cardiac MRI Video Segmentation  
-A Semi-supervised Joint Network for Simultaneous Left Ventricular Motion Tracking and Segmentation in 4D Echocardiography  
-Motion Pyramid Networks for Accurate and Efficient Cardiac Motion Estimation  
+%### MICCAI2020
+%* More vision tasks: different granularities for workflow recognition; pose estimation
+%* New section about Colonoscopy
+%* Other sequential data: colonoscopy, cardiac motion estimation, ultrasound, PET  
 
 
 ## Workflow Recognition
