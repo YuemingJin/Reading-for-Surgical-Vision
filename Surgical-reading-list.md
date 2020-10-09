@@ -16,11 +16,11 @@
 ## Robotic Gesture Recognition
 * [2018MICCAI] Deep **Reinforcement Learning** for Surgical Gesture Segmentation and Classification
 * [2019ICRA] Weakly Supervised Recognition of Surgical Gestures
-* [2019MICCAI] Automated Surgical Activity Recognition with One Labeled Sequence (Robert)
-* [2019MICCAI] Using **3D CNN** to Learn Spatiotemporal Features for Automatic Surgical Gesture Recognition in Video (Stefanie Speidel)
-* [2019ICRA] Weakly Supervised Recognition of Surgical Gestures (danail)
+* [2019MICCAI] Automated Surgical Activity Recognition with One Labeled Sequence 
+* [2019MICCAI] Using **3D CNN** to Learn Spatiotemporal Features for Automatic Surgical Gesture Recognition in Video 
+* [2019ICRA] Weakly Supervised Recognition of Surgical Gestures 
 * [2020ICRA] Motion2Vec Semi-Supervised Representation Learning from Surgical Videos
-* [2020ICRA]Multi-Task Recurrent Neural Network for Surgical Gesture Recognition (Danail)
+* [2020ICRA]Multi-Task Recurrent Neural Network for Surgical Gesture Recognition 
 `multi-task: including common recognition and a novel formulated regression to predict the progress`  
 `JIGSAWS dataset using kinemnatic as input`   
 * [2020ICRA]Temporal Segmentation of Surgical Sub-tasks through Deep Learning with Multiple Data Sources  
@@ -36,11 +36,11 @@
 * [2018ICMLA] MICCAI 2017 challenge winner
 * [2018MICCAI] CFCM Segmentation via Coarse to Fine Context Memory
 * [2019MICCAI] MFTAPNet
-* [2019ICRA] Surgical Instrument Segmentation for Endoscopic Vision with Data Fusion of CNN Prediction and Kinematic Pose (Blake)
-* [2020AAAI] Pyramid Attention Aggregation Network for Semantic Segmentation of Surgical Instruments (Xiao-Liang Xie)
+* [2019ICRA] Surgical Instrument Segmentation for Endoscopic Vision with Data Fusion of CNN Prediction and Kinematic Pose 
+* [2020AAAI] Pyramid Attention Aggregation Network for Semantic Segmentation of Surgical Instruments 
 * [2020MICCAI] ISINet: An Instance-Based Approach for Surgical Instrument Segmentation
 `type segmentation`; `new 2018 annotation`; `temporal module`
-* [2020RA-L] Towards Better Surgical Instrument Segmentation in Endoscopic Vision: Multi-Angle Feature Aggregation and Contour Supervision (Blake)
+* [2020RA-L] Towards Better Surgical Instrument Segmentation in Endoscopic Vision: Multi-Angle Feature Aggregation and Contour Supervision
 `multi-angle`; `contour`
 
 
@@ -53,8 +53,8 @@
 
 
 ### Real Time
-* [2020ICRA] Attention-Guided Lightweight Network for Real-Time Segmentation of Robotic Surgical Instruments (zhen liang ni)
-* [2020ICRA] AP-MTL: Attention Pruned Multi-Task Learning Model for Real-Time Instrument Detection and Segmentation in Robot-Assisted Surgery (Ren Hongliang)  
+* [2020ICRA] Attention-Guided Lightweight Network for Real-Time Segmentation of Robotic Surgical Instruments
+* [2020ICRA] AP-MTL: Attention Pruned Multi-Task Learning Model for Real-Time Instrument Detection and Segmentation in Robot-Assisted Surgery 
 `network pruning; multi-task; annotate the bounding box for 2017 dataset`
 * [2020MICCAI] Searching for Efficient Architecture for Instrument Segmentation in Robotic Surgery  
 `Network search;`
