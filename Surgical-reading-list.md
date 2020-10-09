@@ -1,22 +1,5 @@
 # Reading List on Surgical Robotic Vision
 
-## Venues
-* Conferences: MICCAI, IPCAI, ICRA, IROS  
-* Journals: TMI, MedIA, IJCARS, RA-L
-
-%## Big Papers
-
-%## Summary
-%### ICRA2020
-%* Gesture recognition using multiple-source data
-%* Real-time instrument segmentation
-
-%### MICCAI2020
-%* More vision tasks: different granularities for workflow recognition; pose estimation
-%* New section about Colonoscopy
-%* Other sequential data: colonoscopy, cardiac motion estimation, ultrasound, PET  
-
-
 ## Workflow Recognition
 ### Fully
 * [2017TMI] EndoNet
