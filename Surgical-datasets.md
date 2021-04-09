@@ -1,18 +1,21 @@
 # Public datasets about surgical vision
 
 ## Recent active challenges
-* **[MICCAI20](https://endovis.grand-challenge.org/)**  
-1.CATARACTS Scene Segmentation  
-2.CATARACTS Workflow  
-3.MIcro-Surgical Anastomose Workflow recognition on training sessions (MISAW)  
-4.Surgical visual domain adaptation: from virtual reality to real, clinical environments (SurgVisDom)
+* **[MICCAI21](https://endovis.grand-challenge.org/)**  
+HeiSurf: HeiChole Surgical Workflow Analysis and Full Scene Segmentation  
+GIANA: Gastrointestinal ImAge NAlysis  
+CholecTriplet2021: Surgical Action Triplet Recognition  
+FetReg: Placental Vessel Segmentation and Registration in Fetoscopy  
+PETRAW: PEg TRAnsfer Workflow recognition by different modalities  
+SimSurgSkill: Objective Surgical Skill Assessment in VR Simulation  
 
-* **[SARAS-ESAD](https://saras-esad.grand-challenge.org/), MIDL2020**
-  ```
-  Task: robotic action recognition
-  ```
 
 ## Workflow Recognition (artificial surgery; phase or tool recognition)
+* **[MISAW], 2020 MICCAI challenge** 
+  ```
+  MIcro-Surgical Anastomose Workflow recognition on training sessions (MISAW)
+  multi-modal, including video and kinematic
+  ```
 * **[Cholec80](http://camma.u-strasbg.fr/datasets), 2017 TMI** :star::star::star::star::star:
   ```
   Task: phase and tool recognition
@@ -122,6 +125,8 @@
   Data: 合成图转real图，有cholec80 dataset对应的mask GT，但是就是单张图，没有时间信息
   Label: mask; depth; normal…..蛮多基于合成图的信息
   ```
+* **[SurgVisDom],2020 MICCAI challenge**
+
 * **[NeuroID](http://openaccess.thecvf.com/content_CVPRW_2019/papers/WiCV/Kalavakonda_Autonomous_Neurosurgical_Instrument_Segmentation_Using_End-To-End_Learning_CVPRW_2019_paper.pdf), 2019 CVPR workshop paper** :star::star::star:
   ```
   Task: instrument segmentation
@@ -129,6 +134,8 @@
   Label: 8 classes of instruments labeled
   Note: has data link in paper, however cannot open; need to ask
   ```
+* **[UCL](https://arxiv.org/pdf/2007.09107.pdf)**
+
 ## Scene Segmentation
 * **[MICCAI18](https://endovissub2018-roboticscenesegmentation.grand-challenge.org/Home/), 2018 MICCAI challenge** :star::star::star::star::star:
   ```
@@ -136,6 +143,8 @@
   Data: 16*149 train, 2*500 test
   Label: pixel wise scene label
   ```
+* **[CaDIS],MICCAI 2020 challenge**
+
   
 ## Other useful websites for surgical datasets
 * http://opencas.webarchiv.kit.edu/
