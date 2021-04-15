@@ -42,7 +42,10 @@
 `type segmentation`; `new 2018 annotation`; `temporal module`
 * [2020RA-L] Towards Better Surgical Instrument Segmentation in Endoscopic Vision: Multi-Angle Feature Aggregation and Contour Supervision
 `multi-angle`; `contour`
-
+* [2021RA-L] Lightweight Deep Neural Network for Real-Time Instrument Semantic Segmentation in Robot Assisted Minimally Invasive Surgery
+`for part segmentation`
+* [2021ICRA] Multi-frame Feature Aggregation for Real-time Instrument Segmentation in Endoscopic Video
+`binary seg; self-attention for temporal feature aggregation; on public live and cadaver dataset`
 
 ### Semi
 * [2020MICCAI] Learning Motion Flows for Semi-supervised Instrument Segmentation from Robotic Surgical Video
@@ -63,6 +66,11 @@
 * [2019MICCAI]Generating large labeled data sets for laparoscopic image processing tasks using unpaired image-to-image translation
 * [2020MICCAI] Synthetic and Real Inputs for Tool Segmentation in Robotic Surgery
 * [2020MICCAI] Endo-Sim2Real: Consistency learning-based domain adaptation for instrument segmentation
+`binary segmentation`
+* [2021Arxiv] Co-Generation and Segmentation for Generalized Surgical Instrument Segmentation on Unlabelled Data
+`domain transfer for new domain with no label; boundary loss&shape loss`
+* [2021IPCAI] Simulation-to-Real domain adaptation with teacher-student learning for endoscopic instrument segmentation
+` binary segmentation; simulator data: image2image; real: 2015 cholec 2019 dataset`
 
 ## Pose estimation
 * [2020MICCAI] AutoSNAP: Automatically Learning Neural Architectures for Instrument Pose Estimation
