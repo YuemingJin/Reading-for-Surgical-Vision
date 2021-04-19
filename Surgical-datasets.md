@@ -135,6 +135,11 @@ SimSurgSkill: Objective Surgical Skill Assessment in VR Simulation
   Note: has data link in paper, however cannot open; need to ask
   ```
 * **[UCL](https://arxiv.org/pdf/2007.09107.pdf)**
+* **[UW-Sinus-Surgery-C/L](https://digital.lib.washington.edu/researchworks/handle/1773/45396), UW sinus surgery cadaver/live dataset**
+```
+Task: instrument segmentation; can be used for DA 
+```
+
 
 ## Scene Segmentation
 * **[MICCAI18](https://endovissub2018-roboticscenesegmentation.grand-challenge.org/Home/), 2018 MICCAI challenge** :star::star::star::star::star:
