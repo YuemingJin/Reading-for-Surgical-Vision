@@ -10,10 +10,15 @@ PETRAW: PEg TRAnsfer Workflow recognition by different modalities
 SimSurgSkill: Objective Surgical Skill Assessment in VR Simulation  
 
 
-## Workflow Recognition (artificial surgery; phase or tool recognition)
+## Workflow Recognition (artificial surgery; a.k.a. phase recognition)
+* **EndoTube, [2016 MICCAI workshop paper](https://www.cs.jhu.edu/~areiter/JHU/Publications_files/2016_M2CAI.pdf)
+ ```
+ Definition is same as Cholec80
+ ```
 * **[MISAW], 2020 MICCAI challenge** 
   ```
   MIcro-Surgical Anastomose Workflow recognition on training sessions (MISAW)
+  Ex-vivo
   multi-modal, including video and kinematic
   ```
 * **[Cholec80](http://camma.u-strasbg.fr/datasets), 2017 TMI** :star::star::star::star::star:
@@ -24,10 +29,23 @@ SimSurgSkill: Objective Surgical Skill Assessment in VR Simulation
   ```
 * **[M2CAI-phase](http://camma.u-strasbg.fr/m2cai2016/), 2016 MICCAI challenge** :star::star::star::star::star:
   ```
-  Task: phase recognition
   41 videos of cholecystectomy surgeries (27 train/ 14 test)
   25fps phase annotation & 8 classes
   ```
+* **[Cataract-101](https://zenodo.org/record/1220951#.XRHrC_kzaos), [2018 paper](http://www.itec.aau.at/~mt/wp/wp-content/uploads/2018/04/cat101-mmsys-2018.pdf)** :star::star::star::star:
+  ```
+  Data:101 videos recording cataract surgery;
+  totally 14 hours, 2 minutes, and 5 seconds duration
+  10 classes for phase
+  ```
+* **[CATARACTS'20](https://ieee-dataport.org/open-access/cataracts), [2020 MICCAI challenge](https://www.synapse.org/#!Synapse:syn21680292/wiki/)
+  ```
+  Data: 50 videos recording cataract surgery;
+  18 classes for phase;
+  together with CATARACTS'18 & CADIS datatset
+  ```
+
+## Tool Presence or Bbox Detection
 * **[M2CAI-tool](http://camma.u-strasbg.fr/m2cai2016/), 2016 MICCAI challenge** :star::star::star:
   ```
   Task: tool recognition
@@ -40,16 +58,8 @@ SimSurgSkill: Objective Surgical Skill Assessment in VR Simulation
   2532 frames across the first 10 videos in the m2cai16-tool dataset
   no obvious temporal information
   ```
-* **[Cataract-101](https://zenodo.org/record/1220951#.XRHrC_kzaos), [2018 paper](http://www.itec.aau.at/~mt/wp/wp-content/uploads/2018/04/cat101-mmsys-2018.pdf)** :star::star::star::star:
-  ```
-  Task: phase recognition
-  Data:101 videos recording cataract surgery;
-  totally 14 hours, 2 minutes, and 5 seconds duration
-  10 classes for phase
-  ```
 * **[CATARACTS'18](https://cataracts2018.grand-challenge.org/home/), 2018 MICCAI challenge** :star::star::star::star:
   ```
-  Task: tool recognition
   Data: two synchronized videos (microscopic videos& video showing surgical tray (手术台))
   2*50 videos, (2*25 train/ 2*25 test)
   Note: test GT not available
